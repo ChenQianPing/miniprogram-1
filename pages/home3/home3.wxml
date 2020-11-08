@@ -1,7 +1,7 @@
 <!--pages/home3/home3.wxml-->
 <!-- <text>pages/home3/home3.wxml</text> -->
 
-<view>
+<!-- <view>
   <open-data type="userAvatarUrl"></open-data>
   <open-data type="userNickName"></open-data>
   <open-data type="userGender"></open-data>
@@ -9,4 +9,11 @@
   <open-data type="userProvince"></open-data>
   <open-data type="userCountry"></open-data>
   <open-data type="userLanguage"></open-data>
+</view> -->
+
+<view>
+  <text class="title">hello {{name}}</text>
+  <button open-type="getUserInfo" bind:getuserinfo="buttonHandler">
+    授权获取用户个人信息
+  </button>
 </view>

@@ -1,0 +1,11 @@
+<!--pages/first/first.wxml-->
+<!-- <text>pages/first/first.wxml</text> -->
+
+
+<view>
+  <text class="title">这是首页</text>
+  <navigator url="../second/second">前往第二页</navigator>
+  <button bind:tap="buttonHandler">前往第二页</button>
+</view>
+
+

@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/first/first",
+    "pages/second/second",
     "pages/home3/home3",
     "pages/home2/home2",
     "pages/home/home",

@@ -1,23 +1,11 @@
-// pages/home3/home3.js
+// pages/second/second.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    data: {
-      name: ''
-    }
-  },
-  buttonHandler(event) {
-    wx.showToast({
-      title: '获取用户个人信息',
-      duration: 700
-    });
-    if (!event.detail.userInfo) return;
-    this.setData({
-      name: event.detail.userInfo.nickName
-    })
+
   },
 
   /**

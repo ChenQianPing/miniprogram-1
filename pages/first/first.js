@@ -1,25 +1,18 @@
-// pages/home3/home3.js
+// pages/first/first.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    data: {
-      name: ''
-    }
-  },
-  buttonHandler(event) {
-    wx.showToast({
-      title: '获取用户个人信息',
-      duration: 700
-    });
-    if (!event.detail.userInfo) return;
-    this.setData({
-      name: event.detail.userInfo.nickName
-    })
+
   },
 
+  buttonHandler(event) {
+    wx.navigateTo({
+      url: '../second/second'
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */

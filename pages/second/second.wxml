@@ -1,0 +1,7 @@
+<!--pages/second/second.wxml-->
+<!-- <text>pages/second/second.wxml</text> -->
+
+<view>
+  <text class="title">这是第二页</text>
+  <navigator url="../first/first">前往首页</navigator>
+</view>
