@@ -1,0 +1,12 @@
+<!--pages/home3/home3.wxml-->
+<!-- <text>pages/home3/home3.wxml</text> -->
+
+<view>
+  <open-data type="userAvatarUrl"></open-data>
+  <open-data type="userNickName"></open-data>
+  <open-data type="userGender"></open-data>
+  <open-data type="userCity"></open-data>
+  <open-data type="userProvince"></open-data>
+  <open-data type="userCountry"></open-data>
+  <open-data type="userLanguage"></open-data>
+</view>

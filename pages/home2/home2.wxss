@@ -1,0 +1,9 @@
+/* pages/home2/home2.wxss */
+
+page {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

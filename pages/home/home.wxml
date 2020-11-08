@@ -1,0 +1,50 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<!-- <view>
+  <text class="title">hello world</text>
+</view> -->
+
+<!-- <view>
+  <button class="weui-btn weui-btn_primary">
+    主操作
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_loading">
+    <i class="weui-loading"></i>正在加载
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_disabled">
+    禁止点击
+  </button>
+</view> -->
+
+<!-- <view>
+  <image src="https://picsum.photos/200" style="height: 375rpx; width: 375rpx;"></image>
+</view> -->
+
+
+<!-- <view>
+  <swiper indicator-dots="{{true}}"  autoplay="{{true}}" style="width: 750rpx;">
+    <swiper-item>
+      <image src="https://picsum.photos/200"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://picsum.photos/250"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://picsum.photos/300"></image>
+    </swiper-item>
+  </swiper>
+</view> -->
+
+<!-- <view>
+  <text class="title">hello {{name}}</text>
+</view> -->
+
+<!-- <view>
+  <text class="title">现在是 {{now}}</text>
+</view> -->
+
+<view>
+  <text class="title">hello {{name}}</text>
+  <button bind:tap="buttonHandler">点击</button>
+  <button bind:tap="buttonHandler2">点击2</button>
+</view>
